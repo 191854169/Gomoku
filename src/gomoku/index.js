@@ -1,6 +1,7 @@
 import React, {Component} from 'react'
 import './index.css'
 import chess from './logic'
+import './fetch'
 
 class Gomoku extends Component {
     constructor(props) {
