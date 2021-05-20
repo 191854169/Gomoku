@@ -1,10 +1,14 @@
 {
     "Post": {
-      "title": "string",
-      "views": "int",
-      "published": "boolean",
-      "createdAt": "date",
-      "comments": "Comment[]"
+      "title": "今天会不会大涨么？",
+      "views": 500,
+      "published": false,
+      "createdAt": "2020-12-11 16:45:55",
+      "comments": [
+          {
+            body: '肯定会大涨！都开始🛫️了'
+          }
+       ]
     },
     "Comment": {
       "body": "string",
